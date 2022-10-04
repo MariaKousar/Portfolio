@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:ital,wght@1,200&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #fff;
+    position: fixed;
+    overflow: hidden; */
+}
+.logo{
+     font-family: Dancing script;
+     font-size: 22px;
+     margin-left: 15px;
+}
+.logo:hover{
+    color: brown;
+}
+
+.headerlist{
+    display: flex;
+    flex-direction: row;
+}
+.headerlinks{
+    list-style-type: none;
+    padding: 15px;
+    font-weight: bold;
+    margin-top: 15px;
+    font-size: 18px;
+}
+.headerlinks a{
+    text-decoration: none;
+    color: black;
+}
+
+.headerlinks a:hover {
+    color: brown;
+}
+
+.theme{
+    display: flex;
+    padding: 15px;
+    margin-top: 8px;
+    font-size: 40px;
+}
+
+.theme:hover{
+    color: brown;
+}
+.intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.selfIntro{
+    flex: 1;
+    font-size: 30px;
+    margin-left: 250px;
+}
+.mainIntroList{
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+}
+.introlist{
+    font-size: 20px;
+    list-style-type: none;
+}
+h3{
+    justify-content: center;
+    padding-left: 20px;
+}
